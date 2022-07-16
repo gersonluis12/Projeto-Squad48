@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{ 
+    background-color: rgba(176, 21, 249, 0.72);
+   
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form button{
+    color : rgb(146, 33, 199);
+    font-size: 24px;
+
+}
+
+@media screen and (max-width:385px){
+    
+    form button{
+        
+        font-size: 16px;
+    
+    }
+    
+
+}
+
+
+button:hover{
+
+    background-color:rgba(176, 21, 249, 1);
+    color: white;
+}
+
+.purple{
+    
+    background-color:rgba(176, 21, 249, 1);
+}
+
+
+#areaExclusiva{
+    border-radius: 5px;
+    max-width: 120px;
+    background-color: rgb(255, 230, 0);
+}
